@@ -2,4 +2,31 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+nav > a {
+  padding: 10px, 10px;
+  background-color: #808080;
+}
+
+#details > div {
+  float: left;
+}
+
+
+section#featured-property > p {
+  min-width: 800px;
+  max-width: 800px;
+  margin: 1% auto;
+}
+
+
+figcaption {
+  font-size: smaller;
+}
+
+section#details > div {
+  background-color: #f00;
+  width: 25%;
 }
